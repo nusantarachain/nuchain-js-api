@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "nuchain-js-api2",
+  "name": "nuchain-js-api",
   "author": "anvie",
-  "module": "dist/nuchain-js-api2.esm.js",
+  "module": "dist/nuchain-js-api.esm.js",
   "size-limit": [
     {
       "path": "dist/nuchain-js-api2.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/nuchain-js-api2.esm.js",
+      "path": "dist/nuchain-js-api.esm.js",
       "limit": "10 KB"
     }
   ],
