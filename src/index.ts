@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
-import types from "./types";
+import types from './types';
 
 const Nuchain = {
   connectApi: async (opts: {}) => {
@@ -22,4 +22,3 @@ const Nuchain = {
 };
 
 export { Nuchain, types, WsProvider, Keyring };
-
