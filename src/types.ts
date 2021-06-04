@@ -35,7 +35,7 @@ export default {
     expired: "Option<Moment>",
     revoked: "bool",
     block: "BlockNumber",
-    signer_name: "Text",
+    signer_name: "Option<Text>",
     props: "Option<Vec<Property>>"
   },
   ProductId: "Vec<u8>",
