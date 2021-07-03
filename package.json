@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "nuchain-js-api",
+  "name": "nuchain-api",
   "author": "anvie",
   "module": "dist/nuchain-js-api.esm.js",
   "size-limit": [
