@@ -17,7 +17,9 @@ export default {
     website: 'Text',
     email: 'Text',
     suspended: 'bool',
-    props: 'Option<Vec<Property>>',
+    block: 'BlockNumber',
+    timestamp: 'Moment',
+    props: 'Option<Vec<Property>>'
   },
   CertId: '[u8; 32]',
   IssuedId: '[u8; 11]',
