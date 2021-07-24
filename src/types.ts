@@ -19,7 +19,7 @@ export default {
     suspended: 'bool',
     block: 'BlockNumber',
     timestamp: 'Moment',
-    props: 'Option<Vec<Property>>'
+    props: 'Option<Vec<Property>>',
   },
   CertId: '[u8; 32]',
   IssuedId: '[u8; 11]',

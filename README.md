@@ -8,4 +8,9 @@ Javascript library for working with Nuchain API and extrinsics.
 yarn build
 ```
 
+## Format code
+
+```bash
+yarn lint --fix
+```
 
