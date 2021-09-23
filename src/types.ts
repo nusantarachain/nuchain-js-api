@@ -102,18 +102,18 @@ export default {
     value: 'Decimal',
   },
   Attribute: {
-    name: 'Vec<u8>',
-    value: 'Vec<u8>',
+    name: 'Text',
+    value: 'Text',
     validity: 'BlockNumber',
     creation: 'Moment',
-    nonce: 'u64',
+    nonce: 'u64'
   },
   AttributeTransaction: {
     signature: 'Signature',
-    name: 'Vec<u8>',
-    value: 'Vec<u8>',
+    name: 'Text',
+    value: 'Text',
     validity: 'u32',
     signer: 'AccountId',
-    identity: 'AccountId',
-  },
+    identity: 'AccountId'
+  }
 };
