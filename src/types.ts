@@ -19,7 +19,7 @@ export default {
     suspended: 'bool',
     block: 'BlockNumber',
     timestamp: 'Moment',
-    props: 'Option<Vec<Property>>'
+    props: 'Option<Vec<Property>>',
   },
   CertId: '[u8; 32]',
   IssuedId: '[u8; 11]',
@@ -100,5 +100,20 @@ export default {
     reading_type: 'ReadingType',
     timestamp: 'Moment',
     value: 'Decimal',
+  },
+  Attribute: {
+    name: 'Vec<u8>',
+    value: 'Vec<u8>',
+    validity: 'BlockNumber',
+    creation: 'Moment',
+    nonce: 'u64',
+  },
+  AttributeTransaction: {
+    signature: 'Signature',
+    name: 'Vec<u8>',
+    value: 'Vec<u8>',
+    validity: 'u32',
+    signer: 'AccountId',
+    identity: 'AccountId',
   },
 };
