@@ -21,6 +21,7 @@ export default {
     timestamp: 'Moment',
     props: 'Option<Vec<Property>>',
   },
+  FlagDataBits: 'u64',
   CertId: '[u8; 32]',
   IssuedId: '[u8; 11]',
   CertDetail: {
@@ -106,7 +107,7 @@ export default {
     value: 'Text',
     validity: 'BlockNumber',
     creation: 'Moment',
-    nonce: 'u64'
+    nonce: 'u64',
   },
   AttributeTransaction: {
     signature: 'Signature',
@@ -114,6 +115,16 @@ export default {
     value: 'Text',
     validity: 'u32',
     signer: 'AccountId',
-    identity: 'AccountId'
+    identity: 'AccountId',
+  },
+  // pallet liquidity -----------
+  ProofId: 'u64',
+  ProofTx: {
+    id: 'ProofId',
+    block: 'BlockNumber',
+    network: 'u32',
+    amount: 'Balance',
+    owner: 'AccountId',
   }
+  // end of pallet liquidity ----
 };
